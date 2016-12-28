@@ -1,0 +1,2 @@
+module MilliMakerHelper
+end
