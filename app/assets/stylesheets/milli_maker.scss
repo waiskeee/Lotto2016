@@ -1,3 +1,45 @@
 // Place all the styles related to the MilliMaker controller here.
 // They will automatically be included in application.css.
 // You can use Sass (SCSS) here: http://sass-lang.com/
+
+$font-stack:    Helvetica, sans-serif;
+$primary-color: #333;
+$background-color: #F5F5F5;
+
+
+h1 {
+  font-size: 40px;
+  text-align: center;
+}
+
+h2 {
+  font-size: 30px;
+  text-align: center;
+}
+
+h3 {
+  font-size: 25px;
+  text-align: center;
+}
+
+body {
+  font: 100% $font-stack;
+  color: $primary-color;
+  background-color: $background-color;
+}
+
+p {
+  font-size: 20px;
+  text-align: center;
+}
+
+a {
+  color: gray;
+  padding: 2px;
+}
+
+a:hover {
+  color: black;
+  background-color: gray;
+  text-decoration: none;
+}
